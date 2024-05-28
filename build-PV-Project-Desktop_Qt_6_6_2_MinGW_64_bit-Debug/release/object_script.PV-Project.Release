@@ -1,0 +1,10 @@
+release/Enseignant.o
+release/Etudiant.o
+release/Groupe.o
+release/GroupeModule.o
+release/Matiere.o
+release/Personne.o
+release/databasemanager.o
+release/main.o
+release/mainwindow.o
+release/moc_mainwindow.o

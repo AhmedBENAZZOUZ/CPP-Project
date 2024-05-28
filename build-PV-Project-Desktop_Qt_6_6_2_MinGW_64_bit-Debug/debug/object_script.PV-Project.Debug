@@ -1,0 +1,10 @@
+debug/Enseignant.o
+debug/Etudiant.o
+debug/Groupe.o
+debug/GroupeModule.o
+debug/Matiere.o
+debug/Personne.o
+debug/databasemanager.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_mainwindow.o

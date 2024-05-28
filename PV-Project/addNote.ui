@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addNote</class>
+ <widget class="QWidget" name="addNote">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="addNoteButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>430</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string>Add Note</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>38</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{color: rgb(198, 0, 0);}</string>
+   </property>
+   <property name="text">
+    <string>Add Note</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelNoteButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>430</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="groupeNote">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>120</y>
+     <width>331</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="GMNote">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>220</y>
+     <width>331</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="MatNote">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>270</y>
+     <width>331</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="EtuNote">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>331</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="TypeNote">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>320</y>
+     <width>331</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Type</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>TP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EXAMEN</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="note_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { border: 0; }</string>
+   </property>
+   <property name="title">
+    <string>Enter Note  :</string>
+   </property>
+   <widget class="QDoubleSpinBox" name="note">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>331</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>20.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.250000000000000</double>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

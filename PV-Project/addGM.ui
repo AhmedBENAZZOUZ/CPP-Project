@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addGM</class>
+ <widget class="QWidget" name="addGM">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="cancelGMButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>440</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string>Continue</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>270</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Coefficient   :</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="coef">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>270</y>
+     <width>62</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+   </property>
+   <property name="decimals">
+    <number>1</number>
+   </property>
+   <property name="minimum">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>20.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.500000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{color: rgb(198, 0, 0);}</string>
+   </property>
+   <property name="text">
+    <string>Add Groupe Module</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="idgm_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>140</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { border: 0; }</string>
+   </property>
+   <property name="title">
+    <string>Id Matiere :</string>
+   </property>
+   <widget class="QLineEdit" name="idgm">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="mat">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>310</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { border: 0; }</string>
+   </property>
+   <property name="title">
+    <string>Teacher  :</string>
+   </property>
+   <widget class="QPushButton" name="addMatGM">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Include Matiere</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="name_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>200</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { border: 0; }</string>
+   </property>
+   <property name="title">
+    <string>Name :</string>
+   </property>
+   <widget class="QLineEdit" name="name">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="modifyGMButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>440</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string>Modify</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearGMButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>440</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 7px;
+border: 1px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableViewGM">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>371</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
